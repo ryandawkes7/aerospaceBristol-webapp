@@ -1,0 +1,146 @@
+.p-info-container {
+    position: absolute; bottom: 0; height: 100%;
+    display: flex; justify-content: center; align-items: center;
+}
+
+.player-inner-container {
+    display: inline-flex; flex-direction: column;
+    justify-content: space-between; align-items: center;
+    height: 80%; width: 92.5%;
+}
+.player-inner-container span { color: red; margin-left: 0.5rem; }
+
+/* Title Container */
+.p-i-title-container {
+    display: flex; justify-content: center; align-items: center;
+    width: 100%; height: 10%;
+    font-weight: 700; text-transform: uppercase; font-size: 24px;
+}
+/* End of Title Container */
+
+/* Form */
+.p-i-form {
+    height: 65%; width: 100%;
+
+}
+
+/* Username Section */
+.p-i-name-container {
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    height: 30%; width: 100%;
+}
+.p-i-name-container label {
+    display: flex; align-items: center;
+    width: 100%; height: 40%;
+    font-size: 22px; font-weight: 400;
+}
+.p-i-name-container input {
+    display: flex; justify-content: center; align-items: center;
+    width: 90%; height: 20px;
+}
+/* End of Username Section */
+
+/* Email Section */
+.p-i-email-container {
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    height: 70%; width: 100%;
+}
+
+/**** Description Section */
+.p-i-description-container {
+    display: flex; align-items: center;
+    width: 100%; height: 25%; margin-top: 5%; margin-bottom: 2.5%;
+    line-height: 18px; font-size: 15px; font-weight: 400;
+}
+/**** End of Description Section */
+
+/**** Title Section */
+.p-i-label-container {
+    display: flex; align-items: center;
+    width: 100%; height: 15%; margin-bottom: 2.5%;
+}
+.p-i-label-container label { font-size: 22px; font-weight: normal; }
+/**** End of Title Section */
+
+/**** Input Section */
+.p-i-input-container {
+    position: relative;
+    display: flex; align-items: center;
+    width: 100%; height: 25%;
+}
+
+.p-i-input-container input { width: 100%; height: 20px; }
+
+.p-i-button-container {
+    position: absolute; right: 5%;
+    display: flex; justify-content: center; align-items: center;
+    width: 4rem; height: 4rem; border-radius: 500px; overflow: hidden;
+    max-height: 90%; background: linear-gradient(180deg, #005CA9 0%, #1C96DB 100%);
+}
+.p-i-button-container h3{
+    font-size: 18px; font-weight: 900; color: white;
+}
+/**** End of Input Section */
+
+/**** Skip Section */
+.p-i-skip-container {
+    width: 100%; height: 10%; margin-top: 5%; margin-bottom: 5%;
+    display: flex; align-items: center;
+    font-size: 15px; font-weight: normal;
+}
+/**** End of Skip Section */
+
+/* End of Email Section */
+
+/* Accessibility Button */
+.p-i-accessibility-container {
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    height: 25%; width: 100%;
+}
+
+.p-i-a-description {
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    font-size: 18px; font-weight: 400; line-height: 21.6px;
+    height: 35%; width: 100%;
+}
+.p-i-a-description div {
+    width: 376px; height: 44px; background: red;
+}
+
+.p-i-a-button-container {
+    display: flex; justify-content: center; align-items: center;
+    height: 65%; width: 100%;
+}
+.p-i-a-button{
+    display: flex; justify-content: center; align-items: center;
+    width: 70%; height: 60%;
+    max-width: 260px; max-height: 55px;
+    border-radius: 27px;
+    background: linear-gradient(180deg, rgba(0, 87, 159, 0.94) 0%, #1488CA 100%);
+}
+.p-i-a-b-image {
+    display: flex; justify-content: center; align-items: center;
+    width: 15%; height: 100%;
+}
+.p-i-a-b-title {
+    display: flex; justify-content: center; align-items: center;
+    width: 70%; height: 100%;
+
+    font-size: 20px; font-weight: 700; color: white;
+}
+/* End of Accessibility Button */
+
+
+.register-input {
+    position: absolute; bottom: 0; right: 0;
+    height: 10%; width: 40%;
+    background: none;
+}
+
+.register-input img {
+    height: 100%;
+}

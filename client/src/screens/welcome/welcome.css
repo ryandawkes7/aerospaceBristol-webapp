@@ -1,0 +1,115 @@
+/* Welcome Screen */
+.welcome-container{
+    display: flex; justify-content: center; align-items: center;
+    height: 100%; width: 100%;
+    background: linear-gradient(180deg, #005CA9 0%, rgba(20, 136, 202, 0) 50%);
+}
+
+.welcome-inner-container {
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    height: 80%; width: 92.5%;
+}
+
+/** Welcome Image Section */
+.welcome-image-container {
+    display: flex; justify-content: flex-end; align-items: center;
+    height: 10%; width: 110%;
+}
+.welcome-image-container img { height: 100%; }
+/** End of Welcome Image Section */
+
+/** Information Section */
+.welcome-info-container{
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    height: 75%;
+}
+
+/*** Title Section */
+.w-i-title-container {
+    display: flex; text-align: center; justify-content: center; align-items: center;
+    height: 40%; width: 100%; margin: 2.5% 0;
+    font-size: 45px; font-weight: 900; text-transform: uppercase;
+}
+/*** End of Title Section */
+
+/*** Description Section */
+.w-i-description-container {
+    display: flex; text-align: center; align-items: center;
+    height: 40%; width: 95%; margin: 2.5% 0;
+    font-size: 22px; font-weight: normal;
+}
+/*** End of Description Section */
+
+/*** Email Section */
+
+
+/** End of Information Section */
+
+/** Button Section */
+.welcome-button-container{
+    display: flex; justify-content: center; align-items: center;
+    height: 15%; width: 95%;
+}
+.welcome-button-container a {
+    display: flex; justify-content: center; align-items: center;
+    width: 90%; height: 80%; min-height: 6rem;
+    max-height: 60px; max-width: 300px;
+    font-size: 22px; font-weight: 700; text-decoration: none; color: white;
+    background: linear-gradient(180deg, rgba(0, 87, 159, 0.94) 0%, #1488CA 100%);
+    border-radius: 30px;
+}
+/** End of Button Section */
+
+/** Popup Section */
+.welcome-popup-container {
+    display: flex; justify-content: center; align-items: center;
+    position: absolute; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.9);
+
+}
+.welcome-popup-inner-section {
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    width: 90%; height: 55%;
+    background: white; border-radius: 12px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.3), 0 6px 12px 0 rgba(0,0,0,0.29); -webkit-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.3), 0 6px 12px 0 rgba(0,0,0,0.29);
+}
+.w-p-inner-container {
+    height: 90%; width: 90%;
+}
+
+/*** Close Button */
+.w-p-close-button {
+    display: flex; align-items: center;
+    height: 10%; width: 100%;
+    border: none; background: none;
+}
+/*** End of Close Button */
+
+/*** Description Section */
+.w-p-info-container {
+    display: flex; align-items: center; justify-content: center;
+    text-align: center; height: 60%; width: 100%;
+    font-size: 20px; font-weight: normal;
+}
+/*** End of Description Section */
+
+/*** Exit Button */
+.w-p-exit-button-container {
+    display: flex; align-items: center; justify-content: center;
+    height: 30%; width: 100%;
+}
+.w-p-exit-button-container button {
+    display: flex; justify-content: center; align-items: center;
+    padding: 1.5rem 5rem; border-radius: 32px;
+    background: linear-gradient(180deg, rgba(0, 87, 159, 0.94) 0%, #1488CA 100%);
+    font-size: 22px; font-weight: bold; color: white;
+}
+/*** End of Exit Button */
+
+/** End of Popup Section */
+
+
+/* End of Welcome Screen */

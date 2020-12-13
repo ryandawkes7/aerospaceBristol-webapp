@@ -1,0 +1,11 @@
+
+.terms-conditions-container{
+    display: flex; flex-direction: column;
+    margin: 0 auto; padding: 1rem;
+    width: 80vw; height: 70%;
+
+    border: 1px solid black; overflow-y: scroll;
+}
+.terms-conditions-container h4{
+    text-align: center;
+}

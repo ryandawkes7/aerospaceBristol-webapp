@@ -1,0 +1,24 @@
+.demo-image-preview {
+    position: relative;
+    text-align: center;
+}
+
+.demo-image-preview > .demo-image-preview img {
+}
+
+@media(max-width:768px){
+    .demo-image-preview > .demo-image-preview img {
+        width: 100%;
+    }
+}
+
+/* fullscreen enable by props */
+.demo-image-preview-fullscreen > .demo-image-preview img {
+}
+
+.image-overlay {
+    z-index: 999;
+    width: fit-content;
+    position: absolute;
+    top: 50%; left: 50%; transform: translate(-50%, -90%);
+}

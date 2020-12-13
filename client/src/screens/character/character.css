@@ -1,0 +1,41 @@
+.char-page-container {
+    position: absolute; bottom: 0; height: 100%;
+    display: flex; justify-content: center; align-items: center;
+}
+
+.c-p-inner-container {
+    display: inline-flex; flex-direction: column;
+    justify-content: space-between; align-items: center;
+    height: 75%; width: 95%; margin: 5% 0;
+}
+.c-p-title-container {
+    display: flex; justify-content: center; align-items: center;
+    height: 10%; width: 95%;
+    font-size: 24px; font-weight: 700; text-transform: uppercase;
+}
+
+/* Character Container */
+.c-p-character-container {
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    width: 95%; height: 90%;
+}
+.c-p-c-character {
+    position: relative;
+    display: flex; justify-content: center; align-items: center;
+    height: 50%; width: 65%;
+}
+
+.cpcc-character-image {
+    display: flex; justify-content: center; align-items: center;
+    position: relative;
+    width: 100%; height: 100%;
+}
+
+.cpcc-selected, .cpcc-unselected {
+    position: absolute; display: block;
+    max-width: 247px; max-height: 230px;
+    width: auto; height: auto;
+}
+
+/* End of Character Container */

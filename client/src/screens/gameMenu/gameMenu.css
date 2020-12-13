@@ -1,0 +1,130 @@
+/* User Statistics Header Styling */
+.game-menu-container {
+    position: absolute; bottom: 0; height: 100%;
+    display: flex; justify-content: center; align-items: center;
+}
+
+.stat-header-container {
+    position: absolute; top: 0; left: 0; right: 0;
+    display: flex; justify-content: center; align-items: center;
+    height: 15%;
+}
+
+.stat-header-background-container {
+    position: fixed; z-index: -1;
+    width: 125%; height: 15%;
+    background: #005CA9; border-radius: 0 0 1000px 1000px;
+    border: 3px solid rgba(214, 236, 255, 0.75);
+}
+
+.stat-header-inner-container {
+    display: flex; width: 100%; height: 100%;
+}
+
+.s-h-i-component {
+    display: flex; justify-content: center; align-items: center;
+    width: 100%;
+}
+.s-h-i-component-xp {
+    display: flex; justify-content: center; align-items: center;
+    width: 100%; margin: 0 15%;
+}
+
+.s-h-i-image { margin: auto; height: 70%;}
+.s-h-i-image img { height: 90%; }
+.s-h-i-image:hover {
+    background: red;
+}
+.s-h-i-settings { margin: auto; height: 70%; }
+.s-h-i-settings img { height: 50%; }
+
+.user-stats-container { display: flex; flex-direction: column; }
+.user-stats-container h2 { color: white; font-size: 32px; }
+.xp-bar {
+    width: 100px; height: 10px;
+    margin-top: 15%;
+    background-color: white; border-radius: 10px; border: 2px solid #1488CA;
+}
+
+/* End of User Statistics Header Styling */
+
+/* Body Container Section */
+
+.quiz-btn, .game-btn, .fact-btn{
+    padding: 2rem 10rem;
+    display: flex;
+
+    margin: 2rem;
+}
+
+.quiz-btn {
+    background: linear-gradient(180deg, rgba(0, 87, 159, 0.94) 0%, #1488CA 100%);
+}
+.game-btn {
+    background: linear-gradient(180deg, rgba(92, 169, 0, 0.94) 0%, rgba(106, 194, 0, 0.94) 100%);
+}
+
+.map-section {
+    width: 100vw; height: 100vh;
+    z-index: 999;
+}
+
+
+
+
+/* Map Footer Buttons */
+.map-btn-container {
+    position: fixed;
+    right: 0; left: 0; bottom: 2rem;
+}
+.map-btn-inner-container {
+    position: relative; display: flex;
+    justify-content: center; align-items: center;
+    margin: 0 5vw;
+}
+.map-btn-inner-container button {
+    display: flex;
+    background: none; border: none; border-radius: 200px;
+    -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3), 0 6px 12px 0 rgba(0, 0, 0, 0.29);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3), 0 6px 12px 0 rgba(0, 0, 0, 0.29);
+    outline: none;
+}
+/* End of Map Footer Buttons */
+
+
+
+/* Guide Popup */
+.guide-popup-container {
+    width: 100vw; height: 100vh;
+    background: rgba(0, 0, 0, 0.79);
+    position: absolute;
+    display: flex; justify-content: center; align-items: center;
+}
+.guide-inner-container {
+    position: relative; display: flex; flex-direction: column;
+    background: white; border-radius: 20px;
+}
+.guide-inner-container h2{
+    margin: 2rem;
+}
+.guide-inner-container button{
+    background: none; border: none;
+    display: flex; margin: 2rem;
+    width: fit-content; height: fit-content;
+    outline: none;
+}
+.guide-popup-btn-container {
+    display: flex; margin: 2rem 4rem 4rem;
+}
+.guide-popup-btn{
+    display: flex; margin: 2rem; width: fit-content;
+
+    background: #005CA9; border-radius: 100px;
+    color: white; text-decoration: none;
+}
+.guide-popup-btn h3{
+    margin: auto; padding: 1.5rem 4rem;
+}
+.guide-no-btn {
+    background: #B71918;
+}

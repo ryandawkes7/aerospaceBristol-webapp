@@ -1,0 +1,38 @@
+.accessibility-inner-container {
+    width: 90%; margin: auto;
+
+    border: 2px solid pink;
+}
+
+/* Title Section */
+.accessibility-title-container {
+    display: flex; justify-content: center; align-items: center;
+    width: 100%; margin-bottom: 2rem;
+    border: 2px solid red;
+}
+
+/* Font Size Section */
+.a-font-size-container {
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    width: 100%; margin: 2rem 0;
+    border: 2px solid blue;
+}
+
+.font-size-inner-container {
+    display: flex; justify-content: space-between;
+    width: 70%;
+}
+
+.font-btn {
+    background: none; border: none;
+}
+/* End of Font Size Section */
+
+/* Audio Guidance Container Section */
+.audio-container {
+    display: flex; justify-content: center; align-items: center;
+    width: 100%;
+
+    border: 2px solid green;
+}
